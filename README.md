@@ -19,15 +19,15 @@ yarn build
 ##### Deploy
 
 ```bash
-    rm -rf ../server/public/*  
-    cp -rf dist/* ../server/public	
+rm -rf ../server/public/*  
+cp -rf dist/* ../server/public	
 ```
 
 ##### Run Server
 
 ```bash
-    cd server
-    npm install
-    npm run dev
+cd server
+npm install
+npm run dev
 ```
 
