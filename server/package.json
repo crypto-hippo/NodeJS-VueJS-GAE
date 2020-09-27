@@ -1,0 +1,19 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "foregolf.io backend",
+    "main": "app.js",
+    "author": "Dylan Dannenhauer",
+    "license": "MIT",
+    "dependencies": {
+        "@google-cloud/datastore": "^6.1.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "node app.js"
+    }
+}
